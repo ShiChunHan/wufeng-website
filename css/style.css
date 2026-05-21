@@ -1881,28 +1881,6 @@ border-top-right-radius: 12px;
     box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.18);
 }
 
-.detail-category2::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 0.5rem;
-    background: var(--accent-color);
-}
-
-.detail-category2::after {
-    content: "";
-    position: absolute;
-    right: 1.5rem;
-    top: 1.5rem;
-    width: 4.25rem;
-    height: 4.25rem;
-    border: 1px solid rgba(255, 255, 255, 0.32);
-    border-radius: 50%;
-    opacity: 0.55;
-}
-
 .detail-category2 h1 {
     position: relative;
     z-index: 1;
@@ -1997,15 +1975,7 @@ border-top-right-radius: 12px;
         padding: 1.65rem 1.25rem 1.25rem 1.45rem;
     }
 
-    .detail-category2::after {
-        right: 1rem;
-        top: 1rem;
-        width: 3rem;
-        height: 3rem;
-    }
-
     .detail-category2 h1 {
-        padding-right: 2.6rem;
         font-size: 1.65rem;
     }
 
